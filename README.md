@@ -14,8 +14,7 @@ This lab serves as a practical learning environment for aspiring IT professional
 ---
 
 # 📚 Lab Modules
-Module 1: Foundation Setup
-## Installing Active Directory on Windows Server 
+## [Module 1: Installing Active Directory on Windows Server](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Installing%20Active%20Directory%20on%20Windows%20Server%20on%20Virtual%20Machine%20(Home%20Lab)/temp.md) 
 - Initial Windows Server installation and configuration
 - Promoting server to Domain Controller
 - Creating the AD forest and domain
