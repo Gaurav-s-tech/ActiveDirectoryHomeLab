@@ -83,7 +83,7 @@ Before starting, ensure your host environment meets the following requirements:
 2.  Click it and select **Promote this server to a domain controller**.
 3.  **Deployment Configuration:**
     * Select **Add a new forest**.
-    * Enter a **Root domain name** (e.g., `eastcharmer.local`).
+    * Enter a **Root domain name** (e.g., `techcharmer.local`).
     * *Tip: Using `.local` is standard practice for internal home labs to avoid conflicts with real websites.*
 4.  **Domain Controller Options:**
     * Set the **Forest** and **Domain functional levels** (e.g., Windows Server 2016).
@@ -94,13 +94,15 @@ Before starting, ensure your host environment meets the following requirements:
 6.  The VM will automatically **reboot** upon completion.
 7.  **Log In:**
     * After the reboot, log in using your new domain credentials.
-    * Format: `DOMAIN\Administrator` (e.g., `EASTCHARMER\Administrator`).
+    * Format: `DOMAIN\Administrator` (e.g., `TECHCHARMER\Administrator`).
+
+    ![image alt](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/8b40d1ea69274d9df02af8d9c02e8b0ee2c754c7/Installing%20Active%20Directory%20on%20Windows%20Server%20on%20Virtual%20Machine%20(Home%20Lab)/images/Two2.png)
 
 
 
 ### 7. Basic Active Directory Configuration Using ADUC
 1.  Open **Active Directory Users and Computers (ADUC)** via the Start menu or under *Windows Administrative Tools*.
-2.  Expand your domain tree (e.g., `eastcharmer.local`) in the left pane.
+2.  Expand your domain tree (e.g., `techcharmer.local`) in the left pane.
 
 #### Create Organizational Units (OUs)
 * **Create Top-Level OUs:**
@@ -111,7 +113,7 @@ Before starting, ensure your host environment meets the following requirements:
     1.  Right-click a top-level OU (e.g., `USA`) > **New** > **Organizational Unit**.
     2.  Name it (e.g., `Users` or `Computers`).
 
-
+![image alt](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/8c9bbbf92d2cc4825ce5cf094923663cba253b5e/Installing%20Active%20Directory%20on%20Windows%20Server%20on%20Virtual%20Machine%20(Home%20Lab)/images/Three3.png)
 
 #### Create Groups
 1.  Right-click the target OU (e.g., `Users`) > **New** > **Group**.
