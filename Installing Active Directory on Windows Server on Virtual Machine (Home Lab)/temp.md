@@ -71,6 +71,9 @@ Before starting, ensure your host environment meets the following requirements:
     * Click **Next** through the remaining screens and click **Install**.
     * *Note: No reboot is required immediately after this step.*
 
+![image alt](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/f49b1bb4971e23a87f764487625405d3c038478b/Installing%20Active%20Directory%20on%20Windows%20Server%20on%20Virtual%20Machine%20(Home%20Lab)/images/one.png)
+      
+
       
 
 
