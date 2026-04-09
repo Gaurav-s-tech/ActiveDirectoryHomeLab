@@ -45,7 +45,7 @@ Below are the 5 main Group Policies and 1 bonus policy created and configured wi
   * Created a new Map Drive mapping to a specific network share path (`\\driveone\img`).
   * Assigned a specific drive letter (e.g., `E:`).
   
-![Drive Mapping Configuration](path/to/your/drive-mapping-screenshot.png)
+![Drive Mapping Configuration](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/D1.png)
 
 ### 3. Desktop Wallpaper Policy 🖼️
 * **Objective:** Set a standard, non-changeable corporate desktop wallpaper for all users.
