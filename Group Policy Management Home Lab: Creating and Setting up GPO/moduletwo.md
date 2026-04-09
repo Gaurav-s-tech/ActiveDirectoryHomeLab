@@ -64,7 +64,7 @@ Below are the 5 main Group Policies and 1 bonus policy created and configured wi
 * **Settings Applied:**
   * Prohibit access to Control Panel and PC settings: Enabled.
   
-![Restrict Control Panel Configuration](path/to/your/control-panel-screenshot.png)
+![Restrict Control Panel Configuration](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/R1.png)
 
 ---
 
