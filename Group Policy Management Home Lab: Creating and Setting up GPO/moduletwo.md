@@ -10,7 +10,7 @@ Before configuring GPOs, the following tools and roles were set up in the virtua
   * Group Policy Management Console (GPMC)
 * **Organizational Units (OUs):** Configured for different regions (e.g., Asia, Europe, USA) to target specific policies.
 
-![Server Manager - Adding GPMC Feature](path/to/your/gpmc-install-screenshot.png)
+![Server Manager - Adding GPMC Feature](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/gp1.png)
 
 ## 🧠 Core GPO Concepts Learned
 * **Computer Configuration:** Applies policies to the local machine, regardless of who logs in.
