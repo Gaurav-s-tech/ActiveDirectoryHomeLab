@@ -20,7 +20,7 @@ This lab serves as a practical learning environment for aspiring IT professional
 - Creating the AD forest and domain
 - Post-installation verification
 
-## Module 2: Group Policy Management (Part 1)
+## [Module 2: Group Policy Management (Part 1)](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/moduletwo.md)
 ### Creating and Setting up Group Policies 
 - Understanding Group Policy architecture
 - Creating custom GPOs
