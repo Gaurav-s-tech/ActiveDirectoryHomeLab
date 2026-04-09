@@ -35,7 +35,7 @@ Below are the 5 main Group Policies and 1 bonus policy created and configured wi
   * Maximum password age: 31 days.
   * Minimum password age: 30 days.
   
-![Password Policy Configuration](path/to/your/password-policy-screenshot.png)
+![Password Policy Configuration](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/Password-Policy/P1.png)
 
 ### 2. Drive Mapping 📂
 * **Objective:** Automatically map a network drive for users when they log into their accounts.
