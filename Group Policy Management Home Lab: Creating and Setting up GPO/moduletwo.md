@@ -55,7 +55,7 @@ Below are the 5 main Group Policies and 1 bonus policy created and configured wi
   * Enabled "Desktop Wallpaper".
   * Specified the local/network path to the target image and set the style to "Fill".
   
-![Wallpaper Policy Configuration](path/to/your/wallpaper-screenshot.png)
+![Wallpaper Policy Configuration](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/W1.png)
 
 ### 4. Restrict Access to Control Panel 🚫
 * **Objective:** Prevent end-users from accessing the Control Panel to prevent unauthorized system modifications.
@@ -67,9 +67,3 @@ Below are the 5 main Group Policies and 1 bonus policy created and configured wi
 ![Restrict Control Panel Configuration](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/Group%20Policy%20Management%20Home%20Lab%3A%20Creating%20and%20Setting%20up%20GPO/R1.png)
 
 ---
-
-## 🚀 Next Steps
-The next phase of this home lab involves setting up client VMs (e.g., Windows 10/11), joining them to the domain, and practically testing to ensure these enforced GPOs work properly on end-user environments.
-
-## 📝 Acknowledgments
-* Video Tutorial: [Group Policy Management Home Lab by East Charmer](https://youtu.be/6F7-tV4lYFw)
