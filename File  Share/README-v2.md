@@ -30,8 +30,7 @@ The goal of this activity was to create a centralized folder on the server and m
    * Navigated to the **Security** tab in the folder properties.
    * Verified/Configured granular access for Domain Users. *(NTFS permissions apply whether the user is accessing the file over the network OR locally on the server).*
 
-> **[Insert Screenshot of Activity 1 Here]**
-*(Tip: Replace this line with `![Activity 1](path/to/screenshot1.png)` showcasing the folder properties, sharing tab, or NTFS security settings)*
+![Insert Screenshot of Activity 1 Here](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/File%20%20Share/A1.png)
 
 ---
 
@@ -47,8 +46,7 @@ This activity tested if a client machine could access the newly created shared f
    * Unchecked "Reconnect at sign-in" and finalized the connection. 
 4. **Demonstrate Limitation:** Rebooted the client machine to demonstrate that mapping a drive manually is *not persistent*. Upon reboot, the `S:` drive disappeared, proving that manual configuration is inefficient for daily organizational use.
 
-> **[Insert Screenshot of Activity 2 Here]**
-*(Tip: Replace this line with `![Activity 2](path/to/screenshot2.png)` showcasing the mapped network drive visible under "This PC")*
+![Insert Screenshot of Activity 2 Here](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/File%20%20Share/A2.png)
 
 ---
 
@@ -64,35 +62,12 @@ To solve the disappearing drive problem from Activity 2, a Group Policy Object (
 4. **Link the GPO:** Dragged and dropped the "Map Drives" GPO onto the **Users OU** so it actively applies to the domain users.
 5. **Test on Client:** Switched back to the client VM, ran `gpupdate /force` in the Command Prompt, and rebooted. Upon logging back in, the `S:` drive automatically appeared, proving the automation was successful.
 
-> **[Insert Screenshot of Activity 3 Here]**
-*(Tip: Replace this line with `![Activity 3](path/to/screenshot3.png)` showcasing the GPO configuration in GPMC or the automatically mapped drive surviving a client reboot)*
-
----
-
-### Activity 4: Implementing Quotas and File Screening (FSRM)
-Since server hard drives have limited capacity, this activity focused on restricting how much data users can save and what type of files they are allowed to store.
-
-**Steps Taken:**
-1. **Install FSRM:** Using Server Manager, installed the **File Server Resource Manager (FSRM)** feature under File and Storage Services.
-2. **Configure a Quota (Size Limit):**
-   * Opened FSRM and navigated to **Quota Management** > **Quotas**.
-   * Created a quota targeting the `C:\shared` folder.
-   * Applied a custom hard limit (e.g., 10GB maximum capacity).
-   * Set a warning threshold at 80% to automatically trigger an email alert to the IT Admin team before the drive completely fills up.
-3. **Configure a File Screen (File Type Limit):**
-   * Navigated to **File Screening Management** > **File Screens**.
-   * Created a file screen targeting `C:\shared`.
-   * Configured custom properties to block **Audio and Video files**, **Executable files**, and **Image files**. This ensures the shared network drive is strictly used for text and productivity documents, preventing users from filling up expensive storage with heavy media.
-
-> **[Insert Screenshot of Activity 4 Here]**
-*(Tip: Replace this line with `![Activity 4](path/to/screenshot4.png)` showcasing the FSRM console with the active Quota or File Screen applied)*
+![Insert Screenshot of Activity 3 Here](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/File%20%20Share/A3-1.png)
+![q](https://github.com/Gaurav-s-tech/ActiveDirectoryHomeLab/blob/main/File%20%20Share/A3-2.png)
 
 ---
 
 ## 🎓 Key Learnings
 * The critical difference between **Share Permissions** (network-level access) and **NTFS Permissions** (local and network file-level access).
 * How to transition from inefficient manual network mapping to persistent, automated distribution using **Group Policy Preferences**.
-* The importance of proactive storage management using **FSRM** to establish quotas and block unnecessary or malicious file types from clogging up network storage.
 
-## 🔗 References
-* [File Services Homelab: Setting up Network Sharing on Windows Server (Ep. 4)](https://youtu.be/OBnuOOWdEmc?si=Jqn6tsFR6JkMV0_s)
